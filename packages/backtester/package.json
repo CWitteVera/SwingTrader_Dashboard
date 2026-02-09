@@ -1,0 +1,21 @@
+{
+  "name": "@swing-trader/backtester",
+  "version": "1.0.0",
+  "description": "Swing trading backtester engine",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "fast-csv": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
