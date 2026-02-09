@@ -10,3 +10,8 @@ coverage/
 output/
 *.csv
 !data/*.csv
+data/SPXL_D1.csv
+data/SPXL_H1.csv
+data/SPXS_D1.csv
+data/SPXS_H1.csv
+package-lock.json
