@@ -1,0 +1,24 @@
+{
+  "name": "swing-trader-dashboard",
+  "version": "1.0.0",
+  "description": "Swing trading backtester with TradingView charts UI",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces --if-present",
+    "dev:backtester": "npm run dev -w packages/backtester",
+    "dev:ui": "npm run dev -w packages/ui",
+    "backtest": "npm run start -w packages/backtester"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
