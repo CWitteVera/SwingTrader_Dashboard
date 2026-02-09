@@ -8,6 +8,8 @@ build/
 coverage/
 *.tsbuildinfo
 output/
+!packages/ui/public/output/
+packages/ui/public/output/*.json
 *.csv
 !data/*.csv
 data/SPXL_D1.csv

@@ -1,0 +1,2 @@
+# This directory stores the output files from the backtester
+# The summary.json file should be copied here for the UI to display results
