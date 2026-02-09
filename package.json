@@ -11,7 +11,7 @@
     "test": "npm run test --workspaces --if-present",
     "dev:backtester": "npm run dev -w packages/backtester",
     "dev:ui": "npm run dev -w packages/ui",
-    "backtest": "npm run start -w packages/backtester"
+    "backtest": "npm run build -w packages/backtester && npm run start -w packages/backtester"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
